@@ -1,0 +1,11 @@
+npm run dev
+clear
+npm i --save-dev @zeit/next-css
+npm i @zeit/next-css
+npm i nprogress
+npm install next react react-dom
+
+code .
+cd react-node-aws/
+mkdir react-node-aws
+npx create-react-app mail-subscription-ui
