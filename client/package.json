@@ -9,12 +9,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "cd .. && husky install client/.husky"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
     "eslint": ">=5.16.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.30.1"
+    "eslint-plugin-react": "^7.30.1",
+    "husky": "^8.0.1"
   }
 }

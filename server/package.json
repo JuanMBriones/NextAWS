@@ -9,7 +9,8 @@
     "dev": "nodemon server.js",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/ --color",
     "lint-fix": "eslint '**/*.js' --ignore-pattern node_modules/ --color --fix",
-    "prettier": "prettier src -check"
+    "prettier": "prettier src -check",
+    "prepare": "cd .. && husky install server/.husky"
   },
   "keywords": [],
   "author": "",
