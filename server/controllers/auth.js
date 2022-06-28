@@ -1,5 +1,5 @@
 exports.register = (req, res) => {
-    res.json({
-        data: 'register endpoint using controllerss'
-    });
-}
+  res.json({
+    data: 'register endpoint using controllerss',
+  });
+};
