@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "cd .. && husky install client/.husky"
+    "prepare": "cd .. && husky install .husky"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
